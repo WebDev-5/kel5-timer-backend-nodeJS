@@ -62,13 +62,13 @@ exports.findOne = (req, res) => {
         res.send(data);
       } else {
         res.status(404).send({
-          message: `Cannot find Timer with id=${id}.`
+          message: `Cannot find Timer with id = ${id}.`
         });
       }
     })
     .catch(err => {
       res.status(500).send({
-        message: "Error retrieving Timer with id=" + id
+        message: "Error retrieving Timer with id = " + id
       });
     });
 };
@@ -83,17 +83,17 @@ exports.update = (req, res) => {
     .then(num => {
       if (num == 1) {
         res.send({
-          message: "Timer was updated successfully."
+          message: `Timer with id = ${id} was updated successfully.`
         });
       } else {
         res.send({
-          message: `Cannot update Timer with id=${id}. Maybe Timer was not found or req.body is empty!`
+          message: `Cannot update Timer with id = ${id}. Maybe Timer was not found or req.body is empty!`
         });
       }
     })
     .catch(err => {
       res.status(500).send({
-        message: "Error updating Timer with id=" + id
+        message: "Error updating Timer with id = " + id
       });
     });
 };
@@ -108,29 +108,31 @@ exports.delete = (req, res) => {
     .then(num => {
       if (num == 1) {
         res.send({
-          message: "Timer was deleted successfully!"
+          message: `Timer with id = ${id} was deleted successfully.`
         });
       } else {
         res.send({
-          message: `Cannot delete Timer with id=${id}. Maybe Timer was not found!`
+          message: `Cannot delete Timer with id = ${id}. Maybe Timer was not found!`
         });
       }
     })
     .catch(err => {
       res.status(500).send({
-        message: "Could not delete Timer with id=" + id
+        message: "Could not delete Timer with id = " + id
       });
     });
 };
 
 // Delete all Timers from the database.
-exports.deleteAll = (req, res) => {
+exports.deleteAll = (req, res) => { 
   Timer.destroy({
     where: {},
-    truncate: false
+    truncate: true,
+    restartIdentity: true
   })
     .then(nums => {
-      res.send({ message: `${nums} Timers were deleted successfully!` });
+      res.send({ message: "All Timers were deleted successfully!" 
+      });
     })
     .catch(err => {
       res.status(500).send({
