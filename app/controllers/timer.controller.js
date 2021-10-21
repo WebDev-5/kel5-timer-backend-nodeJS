@@ -14,12 +14,12 @@ exports.create = (req, res) => {
 
   // Create a Timer
   const timer = {
-	status: req.body.status,  
+	  status: req.body.status,  
     title: req.body.title,
     start_time: req.body.start_time,
-	last_pause: req.body.last_pause,
-	delays: req.body.delays,
-	last_continue: req.body.last_continue
+	  last_pause: req.body.last_pause,
+    delays: req.body.delays,
+    last_continue: req.body.last_continue
   };
 
   // Save Timer in the database

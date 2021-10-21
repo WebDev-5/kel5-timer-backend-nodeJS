@@ -6,7 +6,7 @@ module.exports = (sequelize, Sequelize) => {
     title: {
       type: Sequelize.STRING
     },
-	start_time: {
+	  start_time: {
       type: Sequelize.INTEGER
     },
     last_pause: {
@@ -19,6 +19,5 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.INTEGER
     }
   });
-
   return Timer;
 };
