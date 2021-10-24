@@ -21,5 +21,5 @@ module.exports = app => {
   // Create a new Timer
   router.delete("/", timer.deleteAll);
 
-  app.use('/api/timer', router);
+  app.use('/timer', router);
 };
