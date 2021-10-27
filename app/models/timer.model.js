@@ -17,6 +17,12 @@ module.exports = (sequelize, Sequelize) => {
     },
     running: {
       type: Sequelize.BOOLEAN
+    },
+    jam: {
+      type: Sequelize.STRING
+    },
+    last: {
+      type: Sequelize.STRING
     }
   });
   Timer.sync().then(() => console.log("Table created!"));
