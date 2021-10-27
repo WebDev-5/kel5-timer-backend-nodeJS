@@ -80,7 +80,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
 
 Multi Stopwatch is an application that was built to fulfill a mini project assignment for Web Development course, which was developed by Webdev Kelompok 5 D4 2019 Politeknik Negeri Bandung.
-This an application that is a simulation of a stopwatch or timer, which can be used to calculate and set the time for each activity you do. This application is built using HTML, CSS, Node.js, Express.js, Sequelize, Axios, and PostgreSQL. 
+This an application that is a simulation of a stopwatch or timer, which can be used to calculate and set the time for each activity you do. This application is built using HTML, CSS, Node.js, Express.js, Sequelize, Axios, Vue.js, and PostgreSQL. This repository is BackEnd part from main project at https://github.com/WebDev-5/kel5-timer-frontend-vue. So, this part is just built using Node.js, Express.js, Sequelize, and PostgreSQL.
 Still remember, take advantage and don't waste your time!
 
 The following are the features of this application :
@@ -98,12 +98,9 @@ The following are the features of this application :
 
 The following are the frameworks and libraries that build this application :
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Node.js](https://nodejs.org/)
 * [Express.js](https://expressjs.com/)
 * [Sequelize](https://sequelize.org/)
-* [Axios](https://axios-http.com/docs/intro)
 * [PostgreSQL](https://www.postgresql.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -124,20 +121,15 @@ To get a local copy up and running follow these simple example steps.
    ```
 2. Create a new role in Postgre, set name and password as `webdev-5`.
 3. Create a new database `timer` in Postgre and set the owner to `webdev-5`.
-4. Open terminal and change directory to backend folder.
-   ```sh
-   cd .../kel5-timer-jQuery/backend
-   ```
-5. Install the dependencies.
+4. Open terminal and install the dependencies.
    ```sh
    npm install express sequelize pg pg-hstore body-parser cors --save
    ```
-6. Run server.
+5. Run server.
    ```sh
    node server.js
    ```
-7. Open the `index.html` with your browser in folder `kel5-timer-jQuery`.
-8. Run application.
+6. Visit FrontEnd repository of this project at https://github.com/WebDev-5/kel5-timer-frontend-vue and then folllow the instructions of installation to run application.
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
