@@ -122,7 +122,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git clone https://github.com/WebDev-5/kel5-timer-backend-nodeJS.git
    ```
-2. Create a new databse 'timer' in Postgre with `webdev-5` as db_user and db_password.
+2. Create a new databse 'timer' in Postgre with `webdev-5` as `db_user` and `db_password`.
 3. Open terminal and change directory to backend folder
    ```sh
    cd kel5-timer-backend-nodeJS
@@ -135,8 +135,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    node server.js
    ```
-6. Install [kel5-timer-frontend-vue].
-7. Run application.
+6. Run application.
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -254,4 +253,4 @@ We've included a few of our favorites to kick things off!
 [license-shield]: https://img.shields.io/github/license/WebDev-5/kel5-timer-jQuery?style=for-the-badge&logo=appveyor
 [license-url]: https://github.com/WebDev-5/kel5-timer-jQuery/blob/main/LICENSE.md
 [product-screenshot]: assets/images/screenshot.png
-[kel5-timer-frontend-vue]: https://github.com/WebDev-5/kel5-timer-frontend-vue
+<!-- [kel5-timer-frontend-vue]: https://github.com/WebDev-5/kel5-timer-frontend-vue -->
