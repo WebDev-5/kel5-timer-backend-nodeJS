@@ -1,22 +1,22 @@
 module.exports = (sequelize, Sequelize) => {
   const Timer = sequelize.define("timer", {
-    status: {
-      type: Sequelize.INTEGER
-    },
     title: {
       type: Sequelize.STRING
     },
-	  start_time: {
+    time_began: {
+      type: Sequelize.STRING
+    },
+    time_stopped: {
+      type: Sequelize.STRING
+    },
+    stopped_duration: {
       type: Sequelize.INTEGER
     },
-    last_pause: {
+    started: {
       type: Sequelize.INTEGER
     },
-    delays: {
-      type: Sequelize.INTEGER
-    },
-    last_continue: {
-      type: Sequelize.INTEGER
+    running: {
+      type: Sequelize.BOOLEAN
     }
   });
   return Timer;
