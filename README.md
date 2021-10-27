@@ -25,8 +25,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/WebDev-5/kel5-timer-jQuery">
-    <img src="assets/images/icon.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/WebDev-5/kel5-timer-backend-nodeJS">
+    <img src="frontend/assets/images/icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Multi Stopwatch Kelompok 5</h3>
@@ -34,14 +34,14 @@
   <p align="center">
     An awesome Stopwatch to manage your time!
     <br />
-    <a href="https://github.com/WebDev-5/kel5-timer-jQuery"><strong>Open Application »</strong></a>
+    <a href="#installation"><strong>Open Application »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/WebDev-5/kel5-timer-jQuery">View Demo</a>
+    <a href="#usage">View Demo</a>
     ·
-    <a href="https://github.com/WebDev-5/kel5-timer-jQuery/issues">Report Bug</a>
+    <a href="https://github.com/WebDev-5/kel5-timer-backend-nodeJS/issues">Report Bug</a>
     ·
-    <a href="https://github.com/WebDev-5/kel5-timer-jQuery/issues">Request Feature</a>
+    <a href="https://github.com/WebDev-5/kel5-timer-backend-nodeJS/issues">Request Feature</a>
   </p>
 </div>
 
@@ -77,10 +77,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/WebDev-5/kel5-timer-jQuery)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
 
 Multi Stopwatch is an application that was built to fulfill a mini project assignment for Web Development course, which was developed by Webdev Kelompok 5 D4 2019 Politeknik Negeri Bandung.
-This an application that is a simulation of a stopwatch or timer, which can be used to calculate and set the time for each activity you do. This application is built using HTML, CSS, Node.js, express.js, Sequelize, Axios, and PostgreSQL. 
+This an application that is a simulation of a stopwatch or timer, which can be used to calculate and set the time for each activity you do. This application is built using HTML, CSS, Node.js, Express.js, Sequelize, Axios, and PostgreSQL. 
 Still remember, take advantage and don't waste your time!
 
 The following are the features of this application :
@@ -118,24 +118,26 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository.
    ```sh
-   git clone https://github.com/WebDev-5/kel5-timer-backend-nodeJS.git
+   git clone https://github.com/WebDev-5/kkel5-timer-backend-nodeJS
    ```
-2. Create a new databse 'timer' in Postgre with `webdev-5` as `db_user` and `db_password`.
-3. Open terminal and change directory to backend folder
+2. Create a new role in Postgre, set name and password as `webdev-5`.
+3. Create a new database `timer` in Postgre and set the owner to `webdev-5`.
+4. Open terminal and change directory to backend folder.
    ```sh
-   cd kel5-timer-backend-nodeJS
+   cd .../kel5-timer-jQuery/backend
    ```
-4. Install the dependencies.
+5. Install the dependencies.
    ```sh
-   npm install
+   npm install express sequelize pg pg-hstore body-parser cors --save
    ```
-5. Run server 
+6. Run server.
    ```sh
    node server.js
    ```
-6. Run application.
+7. Open the `index.html` with your browser in folder `kel5-timer-jQuery`.
+8. Run application.
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -155,7 +157,7 @@ To use this application, you can :
 
 For example :
 
-[![Watch the video](assets/video/demo.gif)](https://github.com/WebDev-5/kel5-timer-jQuery)
+[![Watch the video](frontend/assets/video/demo.gif)](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -177,7 +179,7 @@ For example :
 - [x] Connect backend to frontend with Axios.  
 - [x] Fix connection between frontend and backend. 
 
-See the [open issues](https://github.com/WebDev-5/kel5-timer-jQuery/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/WebDev-5/kel5-timer-backend-nodeJS/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -204,7 +206,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE.md](https://github.com/WebDev-5/kel5-timer-jQuery/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE.md](https://github.com/WebDev-5/kel5-timer-backend-nodeJS/blob/main/LICENSE.md) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -220,7 +222,7 @@ Distributed under the MIT License. See [LICENSE.md](https://github.com/WebDev-5/
 * [Nabil Putra Hadiyani](https://github.com/nabilputrah)
 * [Shinta Nurkaafi](https://github.com/NurMeiTaa)
 
-Project Link: [Multiple Stopwatch Kelompok 5](https://github.com/WebDev-5/kel5-timer-jQuery)
+Project Link: [Multiple Stopwatch Kelompok 5](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -243,14 +245,13 @@ We've included a few of our favorites to kick things off!
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-6-blue?style=for-the-badge&logo=appveyor
-[contributors-url]: https://github.com/WebDev-5/kel5-timer-jQuery/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/WebDev-5/kel5-timer-jQuery?style=for-the-badge&logo=appveyor
-[forks-url]: https://github.com/WebDev-5/kel5-timer-jQuery/network/members
-[stars-shield]: https://img.shields.io/github/stars/WebDev-5/kel5-timer-jQuery?style=for-the-badge&logo=appveyor
-[stars-url]: https://github.com/WebDev-5/kel5-timer-jQuery/stargazers
-[issues-shield]: https://img.shields.io/github/issues/WebDev-5/kel5-timer-jQuery?style=for-the-badge&logo=appveyor
-[issues-url]: https://github.com/WebDev-5/kel5-timer-jQuery/issues
-[license-shield]: https://img.shields.io/github/license/WebDev-5/kel5-timer-jQuery?style=for-the-badge&logo=appveyor
-[license-url]: https://github.com/WebDev-5/kel5-timer-jQuery/blob/main/LICENSE.md
-[product-screenshot]: assets/images/screenshot.png
-<!-- [kel5-timer-frontend-vue]: https://github.com/WebDev-5/kel5-timer-frontend-vue -->
+[contributors-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/WebDev-5/kel5-timer-backend-nodeJS?style=for-the-badge&logo=appveyor
+[forks-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/network/members
+[stars-shield]: https://img.shields.io/github/stars/WebDev-5/kel5-timer-backend-nodeJS?style=for-the-badge&logo=appveyor
+[stars-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/stargazers
+[issues-shield]: https://img.shields.io/github/issues/WebDev-5/kel5-timer-backend-nodeJS?style=for-the-badge&logo=appveyor
+[issues-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/issues
+[license-shield]: https://img.shields.io/github/license/WebDev-5/kel5-timer-backend-nodeJS?style=for-the-badge&logo=appveyor
+[license-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/blob/main/LICENSE.md
+[product-screenshot]: frontend/assets/images/screenshot.png
