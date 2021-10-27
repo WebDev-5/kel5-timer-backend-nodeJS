@@ -162,18 +162,10 @@ For example :
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Analysis
-- [x] Mock-Up design
-- [x] Development HTML and CSS
-- [x] Add script Vanilla.js
-- [x] Add local storage to keep running in the background.
-- [x] Add multiple timer feature.
-- [x] Fix and update local storage.  
-- [x] Fix and remove display bug. 
+- [x] Initialize project.
+- [x] Connect to server.
+- [x] Connect to database. 
 - [x] Build API in backend with Express.js, Sequelize, and Postgre. 
-- [x] Remove localstorage and change to database.
-- [x] Connect backend to frontend with Axios.  
-- [x] Fix connection between frontend and backend. 
 
 See the [open issues](https://github.com/WebDev-5/kel5-timer-backend-nodeJS/issues) for a full list of proposed features (and known issues).
 
