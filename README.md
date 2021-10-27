@@ -26,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/WebDev-5/kel5-timer-backend-nodeJS">
-    <img src="frontend/assets/images/icon.png" alt="Logo" width="80" height="80">
+    <img src="assets/images/icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Multi Stopwatch Kelompok 5</h3>
@@ -149,7 +149,7 @@ To use this application, you can :
 
 For example :
 
-[![Watch the video](frontend/assets/video/demo.gif)](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
+[![Watch the video](assets/video/demo.gif)](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -214,7 +214,8 @@ Distributed under the MIT License. See [LICENSE.md](https://github.com/WebDev-5/
 * [Nabil Putra Hadiyani](https://github.com/nabilputrah)
 * [Shinta Nurkaafi](https://github.com/NurMeiTaa)
 
-Project Link: [Multiple Stopwatch Kelompok 5](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
+1. Project Link (BackEnd) : [Multiple Stopwatch Kelompok 5 (BackEnd)](https://github.com/WebDev-5/kel5-timer-backend-nodeJS)
+2. Project Link (FrontEnd) : [Multiple Stopwatch Kelompok 5 (FrontEnd)](https://github.com/WebDev-5/kel5-timer-frontend-vue)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -228,7 +229,6 @@ We've included a few of our favorites to kick things off!
 * [Img Shields](https://shields.io)
 * [Readme Template](https://github.com/othneildrew/Best-README-Template)
 * [Example CRUD Rest APIs](https://www.bezkoder.com/node-express-sequelize-postgresql/)
-* [Axios Example](https://github.com/axios/axios)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -246,4 +246,4 @@ We've included a few of our favorites to kick things off!
 [issues-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/issues
 [license-shield]: https://img.shields.io/github/license/WebDev-5/kel5-timer-backend-nodeJS?style=for-the-badge&logo=appveyor
 [license-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/blob/main/LICENSE.md
-[product-screenshot]: frontend/assets/images/screenshot.png
+[product-screenshot]: assets/images/screenshot.png
