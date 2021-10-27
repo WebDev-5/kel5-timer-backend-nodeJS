@@ -236,7 +236,7 @@ We've included a few of our favorites to kick things off!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-6-blue?style=for-the-badge&logo=appveyor
+[contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-2-blue?style=for-the-badge&logo=appveyor
 [contributors-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/WebDev-5/kel5-timer-backend-nodeJS?style=for-the-badge&logo=appveyor
 [forks-url]: https://github.com/WebDev-5/kel5-timer-backend-nodeJS/network/members
