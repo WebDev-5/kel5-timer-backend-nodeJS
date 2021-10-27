@@ -19,5 +19,6 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.BOOLEAN
     }
   });
+  Timer.sync().then(() => console.log("Table created!"));
   return Timer;
 };
