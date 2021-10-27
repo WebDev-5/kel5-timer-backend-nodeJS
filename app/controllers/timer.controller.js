@@ -19,7 +19,9 @@ exports.create = (req, res) => {
     time_stopped: req.body.time_stopped,
     stopped_duration: req.body.stopped_duration,
     started: req.body.started,
-    running: req.body.running
+    running: req.body.running,
+    jam: req.body.jam,
+    last: req.body.last,
   };
 
   // Save Timer in the database
