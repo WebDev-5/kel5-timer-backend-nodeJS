@@ -117,19 +117,23 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repository.
    ```sh
-   git clone https://github.com/WebDev-5/kkel5-timer-backend-nodeJS
+   git clone https://github.com/WebDev-5/kel5-timer-backend-nodeJS
    ```
 2. Create a new role in Postgre, set name and password as `webdev-5`.
 3. Create a new database `timer` in Postgre and set the owner to `webdev-5`.
-4. Open terminal and install the dependencies.
+4. Open terminal and change directory to root folder.
+    ```sh
+   cd ../kel5-timer-backend-nodeJS
+   ```
+5. Install the dependencies.
    ```sh
    npm install express sequelize pg pg-hstore body-parser cors --save
    ```
-5. Run server.
+6. Run server.
    ```sh
    node server.js
    ```
-6. Visit FrontEnd repository of this project at https://github.com/WebDev-5/kel5-timer-frontend-vue and then folllow the instructions of installation to run application.
+7. Visit FrontEnd repository of this project at https://github.com/WebDev-5/kel5-timer-frontend-vue and then folllow the instructions of installation to run application.
    
 <p align="right">(<a href="#top">back to top</a>)</p>
 
