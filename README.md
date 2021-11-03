@@ -123,7 +123,7 @@ To get a local copy up and running follow these simple example steps.
 3. Create a new database `timer` in Postgre and set the owner to `webdev-5`.
 4. Open terminal and change directory to root folder.
     ```sh
-   cd ../kel5-timer-backend-nodeJS
+   cd kel5-timer-backend-nodeJS
    ```
 5. Install the dependencies.
    ```sh
