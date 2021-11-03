@@ -127,7 +127,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 5. Install the dependencies.
    ```sh
-   npm install express sequelize pg pg-hstore body-parser cors --save
+   npm install
    ```
 6. Run server.
    ```sh
